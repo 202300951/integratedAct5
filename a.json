@@ -1,0 +1,17 @@
+{
+  "event_id": "evt-01",
+  "event_type": "SHIPMENT_DELAYED",
+  "timestamp": "2026-09-22T15:48:53.848Z",
+  "producer": "SCM-NODE-A",
+  "simulateFailure": false,
+  "data": {
+    "project_id": "prj-01",
+    "shipmentId": "shp-01",
+    "carrier_code": "car-01",
+    "previous_status": "IN_TRANSIT",
+    "new_status": "Delayed",
+    "delay_duration_days": "3",
+    "units_delayed": "50",
+    "delayReason": "Port congestion"
+  }
+}
