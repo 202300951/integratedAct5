@@ -1,0 +1,9 @@
+{
+  "idempotencyKey": "evt-04",
+  "projectId": "prj-01",
+  "taskId": "shp-02",
+  "taskStatus": "On_Hold",
+  "scheduleExtensionDays": 9,
+  "totalDelayedUnits": 150,
+  "impactNotes": "Impact: Port congestion [Carrier: car-01]"
+}
