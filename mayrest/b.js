@@ -47,7 +47,10 @@ const server = http.createServer((req, res) => {
 
         // Write directly to b.json
         fs.writeFileSync(PM_FILE, JSON.stringify(pmState, null, 2), 'utf8');
-        console.log(`[Node B - PM] HTTP 200: Successfully updated b.json for Task '${payload.taskId}'`);
+
+        console.log(`\n==================== b.json ====================`);
+        console.log(fs.readFileSync(PM_FILE, 'utf8'));
+        console.log(`================================================\n`);
 
         res.writeHead(200, { 'Content-Type': 'application/json' });
         return res.end(JSON.stringify({ status: "Success", record: pmState }));

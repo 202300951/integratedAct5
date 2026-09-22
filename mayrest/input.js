@@ -78,9 +78,6 @@ async function main() {
       console.log("- b.json successfully updated over REST API:");
       console.log("\n==================== a.json ====================");
       console.log(fs.readFileSync(A_JSON_FILE, 'utf8'));
-      console.log("\n==================== b.json ====================");
-      console.log(fs.readFileSync(B_JSON_FILE, 'utf8'));
-      console.log("================================================\n");
     }
 
     eventCounter++;

@@ -1,9 +1,9 @@
 {
-  "event_id": "evt-05",
+  "event_id": "evt-10",
   "event_type": "SHIPMENT_DELAYED",
-  "timestamp": "2026-09-22T16:04:09.799Z",
+  "timestamp": "2026-09-22T16:24:58.209Z",
   "producer": "SCM-NODE-A",
-  "simulateFailure": true,
+  "simulateFailure": false,
   "data": {
     "project_id": "prj-01",
     "shipmentId": "shp-01",
